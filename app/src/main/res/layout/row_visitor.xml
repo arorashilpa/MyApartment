@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen5"
+    android:background="@android:color/black"
+    android:padding="@dimen/dimen5">
+
+    <ImageView
+        android:id="@+id/ticketIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/visitor_icon"
+        android:src="@drawable/ic_person" />
+
+    <TextView
+        android:id="@+id/visitorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen5"
+        android:layout_toEndOf="@+id/ticketIcon"
+        android:text="@string/visitor_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/visitorName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/dimen5"
+        android:layout_toEndOf="@+id/ticketIcon"
+        android:text="@string/created_on"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

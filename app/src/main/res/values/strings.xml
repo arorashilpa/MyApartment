@@ -6,5 +6,12 @@
     <string name="helpdesk">Helpdesk</string>
     <string name="my_property">My Property</string>
     <string name="facilities">Facilities</string>
-    <string name="community">Community</string>
+    <string name="events">Events</string>
+    <string name="create_ticket">Create Ticket</string>
+    <string name="ticket_icon">Ticket Icon</string>
+    <string name="add_new_invite">Add New Invite</string>
+    <string name="visitor_icon">Visitor Icon</string>
+    <string name="created_on">Created on 08/07/2019 10:00 am</string>
+    <string name="ticket_title">Power Issue</string>
+    <string name="visitor_name">Jake Peralta</string>
 </resources>
